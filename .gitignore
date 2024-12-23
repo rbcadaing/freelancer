@@ -467,13 +467,15 @@ appsettings-schema.*.json
 # Temp folder containing Examine indexes, NuCache, MediaCache, etc.
 /umbraco/Data/TEMP/
 
+#TODO Cleaup
 # SQLite database files
-/umbraco/Data/*.sqlite.db
-/umbraco/Data/*.sqlite.db-shm
-/umbraco/Data/*.sqlite.db-wal
+#/umbraco/Data/*.sqlite.db
+#/umbraco/Data/*.sqlite.db-shm
+#/umbraco/Data/*.sqlite.db-wal
 
 # Log files
-/umbraco/Logs/
+#/umbraco/Logs/
 
 # Media files
-/wwwroot/media/
+#/wwwroot/media/
+#End TODO Clean up
