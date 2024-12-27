@@ -1,9 +1,8 @@
-﻿
-@inherits UmbracoViewPage
+﻿@inherits UmbracoViewPage
 @{
     var siteSettings = Model.GetSiteSettings();
-    if(siteSettings is null) return;
- 
+    if (siteSettings is null) return;
+
 }
 <!-- Navigation-->
 <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
@@ -17,12 +16,13 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ms-auto">
-                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
+                @* <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
                         href="#portfolio">Portfolio</a></li>
                 <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About</a>
                 </li>
                 <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
-                        href="#contact">Contact</a></li>
+                        href="#contact">Contact</a></li> *@
+                @await Html.GetBlockGridHtmlAsync(siteSettings, "mainNavigation")
             </ul>
         </div>
     </div>
