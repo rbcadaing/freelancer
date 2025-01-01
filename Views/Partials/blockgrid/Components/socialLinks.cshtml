@@ -6,7 +6,7 @@
 {
     foreach(BlockListItem<ContentModels.SocialLink> item in Model.Content.Links)
     {
-        if (item.Content.Link is null || item.Content.Icon is null 
+        if (item.Content.Link is null || item.Content.Icon is null
             || item.Content.IconColour is null || item.Content.InvertedIconColour is null) continue;
         @* .ToString("N") removes the hypen in the string *@
         var iconKey = item.Content.Icon.Key.ToString("N");
