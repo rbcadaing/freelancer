@@ -27,3 +27,4 @@ Umbraco 13 Tutorial - Episode 5 Part 2 - Block Grid Footer: https://www.youtube.
 Umbraco 13 Tutorial - Episode 6 Part 1 - Block Grid Content: https://www.youtube.com/watch?v=yEzeKXY5SgE
 Umbraco 13 Tutorial - Episode 6 Part 2 - Block Grid Image Links: https://www.youtube.com/watch?v=fifqN-V_dT8
 Umbraco 13 Tutorial - Episode 6 Part 3 - Block Grid Icons and Links: https://www.youtube.com/watch?v=SPB1rOikzUY
+Umbraco 13 Tutorial - Episode 6 Part 4 - Block Grid Previews: https://www.youtube.com/watch?v=ojXXF9wya6M
